@@ -37,6 +37,7 @@ python train3_128.py \
     --data_folder="data/hunluan2-1w-2d-3sw-3h-15" \
     --model="PTM_128_ms2_3dmamba_xyz_cb_aw1"
 
+
 The trained weight file will be saved automatically.
 
 ---
@@ -46,5 +47,6 @@ The trained weight file will be saved automatically.
 python evaluate3_128.py \
     --data_folder="data/hunluan2-32w-2d-3sw-3h-15" \
     --model="PTM_128_ms2_3dmamba_xyz_cb_aw1"
+
 
 Note: Make sure to specify the evaluation dataset path in --data_folder. The filtered point cloud file will be saved automatically.
