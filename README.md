@@ -32,8 +32,8 @@ Pre-trained weights: PointNet2_Triplane2_MLP_128_multiscale2_3dmamba_xyz_cb_aw1-
 ---
 
 ## Training
-```bash
-python train3_128.py \
+   ```bash
+   python train3_128.py \
     --data_folder="data/hunluan2-1w-2d-3sw-3h-15" \
     --model="PTM_128_ms2_3dmamba_xyz_cb_aw1"
 
@@ -43,8 +43,8 @@ The trained weight file will be saved automatically.
 ---
 
 ## Evaluation
-```bash
-python evaluate3_128.py \
+   ```bash
+   python evaluate3_128.py \
     --data_folder="data/hunluan2-32w-2d-3sw-3h-15" \
     --model="PTM_128_ms2_3dmamba_xyz_cb_aw1"
 
